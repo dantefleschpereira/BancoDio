@@ -18,7 +18,7 @@ public class Main {
 		cc.imprimirExtrato();
 		cp.imprimirExtrato();
 
-		System.out.println("=-=-=- CADASTRO DE CLIENTES =-=-=-");
+		System.out.println("\n=-=-=- CADASTRO DE CLIENTES =-=-=-");
 		Banco banco = new Banco();
 		banco.setContas(contas);
 		banco.getClientes();
